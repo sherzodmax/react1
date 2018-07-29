@@ -1,0 +1,37 @@
+.Header {
+    position: fixed;
+    z-index: 100;
+    display: grid;
+    grid-template-columns: auto 100px 100px;
+    grid-gap: 20px;
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    padding: 32px;
+    box-sizing: border-box;
+    background: rgba(36, 35, 37, 0.9);
+    backdrop-filter: blur(20px);
+    opacity: 0;
+
+}
+
+.Header-show {
+    opacity: 1;
+}
+
+.Header-logo {
+    text-align: left;
+}
+
+.Header-link {
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.Header-link:hover {
+    background: white;
+    color: black;
+
+}
+
